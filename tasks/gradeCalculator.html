@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Grade Caluculator</title>
+    </head>
+    <script>
+        function calculateGrade(){
+            let m1 = Number(document.getElementById("m1").value);
+            let m2 = Number(document.getElementById("m2").value);
+            let m3 = Number(document.getElementById("m3").value);
+
+            let avg = (m1+m2+m3)/3;
+
+            alert("Your marks: "+avg);
+        }
+    </script>
+    <body>
+        <center>
+            <h2>Grade Caluculator</h2>
+            <table style="border: 1cm;">
+                <tr>
+                    <th>Subject</th>
+                    <th>Enter Your Marks</th>
+                </tr>
+                <tr>
+                    <td>DBMS</td>
+                    <td><input type="number" placeholder="0" id="m1"></td>
+                </tr>
+                <tr>
+                    <td>CN</td>
+                    <td><input type="number" placeholder="0" id="m2"></td>
+                </tr>
+                <tr>
+                    <td>DSA</td>
+                    <td><input type="number" placeholder="0" id="m3"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="button" value="Calculate" style="width: 200px; height: 35px; color: brown;" onclick="calculateGrade()"></td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>

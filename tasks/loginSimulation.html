@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Login Simulation</title>
+    </head>
+
+    <script>
+        function loginFunction(username,password){
+            if(username == "naman123" && password=="naman123"){
+                
+                let win = window.open("LoginWindow", "LoginSuccess", "width=400,height=200");
+
+                win.document.write(`
+                    <h2 style="text-align:center; margin-top:40px; font-family:Arial;">Login Successful!</h2>
+                    <p style="text-align:center;">Closing in 3 seconds...</p>
+                `);
+
+                setTimeout(() => {
+                    win.close();
+                }, 3000);
+
+            } else {
+                 alert("Invalid Credentials");
+            }
+        }
+    </script>
+    <body>
+        <h1 style="color: chocolate;">User Login</h1>
+        <table style="border: aquamarine;">
+            <tr>
+                <td>Username</td>
+                <td><input type="text" id="username"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" id="password"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="button" value="Login" style="width:125px; height: 30px;" onclick="loginFunction(document.getElementById('username').value,document.getElementById('password').value);"></td>
+            </tr>
+        </table>
+
+    </body>
+</html>
