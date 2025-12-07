@@ -1,0 +1,71 @@
+<html>
+    <head>
+    <title>
+        To-Do List
+    </title>
+    </head>
+    <script>
+        const obj = {};
+
+        function addTask(){
+            let task = prompt("Enter the task: ");
+            obj[task] = "Not Done";
+
+            alert("Task Added");
+        }
+
+        function removeTask(){
+            if(!Object.keys(obj).length === 0){
+               let task = prompt("Enter the task to delete: ");
+               delete obj[task];
+               alert("Task Deleted");
+            }
+        }
+
+        function markTask(){
+            if(!Object.keys(obj).length === 0){
+                let task = prompt("Enter the task: ");
+                obj[task] = obj[task] == "Done"? "Not Done":"Done";
+                alert("Marks to "+obj[task]);
+            }
+        }
+
+        function viewTask(){
+            let str = "";
+            for(let x in obj){
+                str += x+" :"+obj[x]+" \n";
+            }
+            alert(str);
+        }
+
+
+
+    </script>
+    <body>
+        <center>
+            <table style="width: 200px;   background-color: aquamarine; border: black; border-width: 1px;">
+                <tr>
+                    <th colspan="2">**** TO-DO LIST ****</th> 
+                </tr>
+                
+                
+                <tr>
+                    <td>Add Task</td>
+                    <td><input type="button" value="Add" style="width: 75px; height: 35px; color: blueviolet;" onclick="addTask()" ></td>
+                </tr>
+                <tr>
+                    <td>Remove Task</td>
+                    <td><input type="button" value="Remove" style="width: 75px; height: 35px; color: blueviolet;" onclick="removeTask()" ></td>
+                </tr>
+                <tr>
+                    <td>View Task</td>
+                    <td><input type="button" value="View" style="width: 75px; height: 35px; color: blueviolet;" onclick="viewTask()" ></td>
+                </tr>
+                <tr>
+                    <td>Mark Task</td>
+                    <td><input type="button" value="Mark" style="width: 75px; height: 35px; color: blueviolet;" onclick="markTask()" ></td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>

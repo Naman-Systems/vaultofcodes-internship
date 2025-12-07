@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>To-DO List</title>
+    </head>
+    <body> 
+    <center>
+        <h3 style="color: brown;">To Do List</h3>
+        <table style="width: 600px;   background-color: aquamarine; border: black; border-width: 1px;">
+                <tr>
+                    <td>ADD</td> 
+                    <td>REMOVE</td>
+                    <td>MARK</td>
+                    <td>EXIT</td>
+                </tr>
+
+                <tr>
+                    <td><input type="button" value="Select" style="width: 55px; height: 35px; color:black; background-color: rgb(43, 214, 226);" onclick="addTask()"></td>
+                    <td><input type="button" value="Select" style="width: 55px; height: 35px; color:rgb(10, 10, 10); background-color: rgb(43, 214, 226);" onclick="removeTask()"></td>
+                    <td><input type="button" value="Select" style="width: 55px; height: 35px; color:rgb(10, 10, 10); background-color: rgb(43, 214, 226);" onclick="markTask()"></td>
+                    <td><input type="button" value="Select" style="width:55px; height: 35px; color:black; background-color: rgb(43, 214, 226);" onclick="exit()"></td>
+                </tr>
+            
+            </table>
+
+            <ul id="ulList">To Do List:</ul>
+
+        </center>
+    </body>
+    <script src="./to-do-list.js"></script>
+</html>

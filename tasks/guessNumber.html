@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>
+            Guess the Number 
+        </title>
+        <script>
+            function guessNumber(){
+                let n = Number(document.getElementById("num").value);
+
+                if(n == Math.floor(Math.random()*10)+1){
+                    alert("Congrats.. You Guessed it right");
+                }
+                else{
+                    alert("Try again.");
+                }
+            }
+        </script>
+    </head>
+
+    <body>
+        <center>
+            <h2>Guess The Number From 1 to 10</h2>
+            <input type="number" id="num" style="width: 50px; height: 35px;">
+            <input type="button" value="Submit" onclick="guessNumber()" style="color: blueviolet; width: 60 px; height: 50px;">
+        </center>
+    </body>
+</html>
