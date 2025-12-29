@@ -36,7 +36,43 @@ Users can browse the latest news by category, read headlines, and enjoy a respon
 - Responsive design with a modern UI  
 
 ---
+### 2. [Movie Recommendation App](https://github.com/NamanBharsakale/movie-recommendation-app)
 
+A **movie recommendation web app** that suggests movies based on user input or selected genres.  
+Built with a focus on user-friendly interaction and dynamic content display.
+
+**Tech Stack:**  
+- JavaScript  
+- CSS & Html  
+- OMDb API  
+
+**Repository:** [NamanBharsakale/movie-recommendation-app](https://github.com/NamanBharsakale/movie-recommendation-app)
+
+**Features:**  
+- Search movies by name or genre  
+- Provides movie ratings and details  
+- Responsive card-based UI  
+- Dynamic recommendations based on user choice  
+
+---
+
+### 3. [Expense Tracker](https://github.com/NamanBharsakale/expense-tracker)
+
+A **personal finance management app** to track expenses and income.  
+Helps users manage budgets and visualize their spending habits.
+
+**Tech Stack:**  
+- JavaScript  
+- CSS & Html
+- LocalStorage for data persistence  
+
+**Repository:** [NamanBharsakale/expense-tracker](https://github.com/NamanBharsakale/expense-tracker)
+
+**Features:**  
+- Add, edit, and delete expenses  
+- View total balance, income, and expenses  
+- Simple and responsive UI  
+- Stores data locally for persistence  
 ### Other Projects
 
 
