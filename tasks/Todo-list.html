@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+                                <style>
+  .todo {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 14px;
+    margin:8px 0;
+    background:#222;
+    color:#fff;
+    border-radius:8px;
+    font-family:Arial;
+  }
+
+  .todo span {
+    font-size:14px;
+  }
+
+  .status {
+    background:#22c55e;
+    padding:4px 8px;
+    border-radius:6px;
+    font-size:12px;
+  }
+</style>
+
+</head>
+<body style="background-color: blanchedalmond; display: flex;">
+    <div id="todos" style="width: 250px;  height: 40px; border: 2px solid red; margin-left: 500px;background-color: aliceblue; display: flex; justify-content:center; align-items:center;">
+        <button style="width: 50px; height: 35px; background-color: coral; color: beige; margin-left: 0px;" value="ADD" id="add" >ADD</button>
+        <button style="width: 60px; height: 35px; background-color: rgb(59, 213, 252); color: beige; margin-left: 5px;" value="REMOVE" id="delete">DELETE</button>
+        <button style="width: 50px; height: 35px; background-color: rgb(244, 67, 3); color: beige; margin-left: 5px;" value="EDIT" id="edit">EDIT</button>
+        <button style="width: 60px; height: 35px; background-color: rgb(128, 200, 146); color: beige; margin-left: 5px;" value="DISPLAY" id="display">DISPLAY</button>
+    </div>
+
+    <div class="todo" style="width:400px;margin-left:500px;margin-top:20px;"></div>
+    
+    <script src="TodoList.js"></script>
+</body>
+</html>
