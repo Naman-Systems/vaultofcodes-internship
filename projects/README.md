@@ -8,7 +8,7 @@ This repository contains projects built during the training program under the in
 ## Internship Overview
 
 - **Program:** Vault of Codes Internship  
-- **Duration:** [Add duration if needed]  
+- **Duration:** December 2025 - January 2026  
 - **Focus:** Full-stack and front-end development using React, JavaScript, HTML, CSS, and related technologies.  
 - **Objective:** Build functional, real-world projects to strengthen coding, UI/UX, and project management skills.  
 
@@ -16,7 +16,7 @@ This repository contains projects built during the training program under the in
 
 ## Projects
 
-### 1. [My News React App](https://github.com/NamanBharsakale/my-news-react-app)
+### 1. [My News React App](https://github.com/NamanBharsakale/mynews-react-app)
 
 A **React-based news application** that fetches and displays news articles from the NewsAPI.  
 Users can browse the latest news by category, read headlines, and enjoy a responsive, interactive UI.
@@ -27,7 +27,7 @@ Users can browse the latest news by category, read headlines, and enjoy a respon
 - CSS & Bootstrap  
 - NewsAPI  
 
-**Repository:** [NamanBharsakale/my-news-react-app](https://github.com/NamanBharsakale/my-news-react-app)
+**Repository:** [NamanBharsakale/my-news-react-app](https://github.com/NamanBharsakale/mynews-react-app)
 
 **Features:**  
 - Fetches live news from NewsAPI  
@@ -39,11 +39,10 @@ Users can browse the latest news by category, read headlines, and enjoy a respon
 
 ### Other Projects
 
-_(You can add more projects here following the same format)_
 
 ---
 
-## Folder Structure Example (For Reference)
+## Folder Structure Example 
 
 ```plaintext
 mynews-react-app/
