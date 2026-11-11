@@ -39,6 +39,3 @@ Internship opportunity provided by <strong>Vault of Codes</strong>.
 </p>
 <h2>Contact</h2>
 <p>
-<strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/naman-bharsakale-1a7052301/" target="_blank">https://www.linkedin.com/in/naman-bharsakale-1a7052301/</a><br>
-<strong>GitHub:</strong> <a href="https://github.com/NamanBharsakale" target="_blank">https://github.com/NamanBharsakale</a>
-</p>
